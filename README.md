@@ -2,7 +2,7 @@
 转载请注明出处<https://github.com/uxyheaven/XYXcodeTemplate/tree/master>
 
 ## 为什么要定义模板类
-代码规范提高代码可读性, 降低后期维护成本. 当我们定下了一个团队都认同的代码规范, 如我们要求所有的viewController的代码都得按照下面来组织
+遵守代码规范提高代码可读性, 降低后期维护成本. 当我们定下了一个团队都认同的代码规范, 如我们要求所有的viewController的代码都得按照下面来组织
 
 ```
 #pragma mark - def
@@ -30,11 +30,11 @@
 ### 修改说明
 从系统类继承的直接在系统类的文件夹里改
 
-* 如从UIViewController继承的, 在ViewController里直接改
+* 如从UIViewController继承的, 在ViewController里
+* `___FILEBASENAME___.h` 里的代码改成你希望的
+* `___FILEBASENAME___.m` 里的代码改成你希望的
 
-从自定义类继承的, 需要做做一些设置
+从自定义类继承的, 需要做一些额外设置
 
-* `___FILEBASENAME___.h` 里导入的头文件改一下, 基类改一下
-* `___FILEBASENAME___.m` 里改成你希望的
 * 文件夹的名字改成基类的名字
 * TemplateInfo.plist里的Options -> Item 1 -> Values -> Item 1 的值改成基类的名字
