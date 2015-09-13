@@ -34,7 +34,7 @@
 * `___FILEBASENAME___.h` 里的代码改成你希望的
 * `___FILEBASENAME___.m` 里的代码改成你希望的
 
-从自定义类继承的, 需要做一些额外设置
+从自定义类继承的需要做一些额外设置
 
 * 文件夹的名字改成基类的名字
 * TemplateInfo.plist里的Options -> Item 1 -> Values -> Item 1 的值改成基类的名字
