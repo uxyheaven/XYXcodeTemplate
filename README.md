@@ -1,5 +1,5 @@
 # iOS Xcode制作模板类
-转载请注明出处<>
+转载请注明出处<https://github.com/uxyheaven/XYXcodeTemplate/tree/master>
 
 ## 为什么要定义模板类
 代码规范提高代码可读性, 降低后期维护成本. 当我们定下了一个团队都认同的代码规范, 如我们要求所有的viewController的代码都得按照下面来组织
